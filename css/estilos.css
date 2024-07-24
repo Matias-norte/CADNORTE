@@ -905,4 +905,21 @@ p{
     padding: 5px;
     }
     
-    
+.btn-wsp:{position:fixed;
+	  width:95px;
+	  height:95px;
+	  line-height:57px;
+	  bottom:40px;
+	  right:30px;
+	  background:#0DF053;
+	  color:#ffff;
+	  border-radius:60px;
+	  text-align:center;
+	  font-size:40px !important;
+	  box-shadow:0px 1px 10px rgba(0,0,0,0.3);
+	  z-index:100;
+	 }
+.btn-wsp:hover{text-decoration:none;
+	       color:#0DF053;
+	       background:#ffff;
+	      }
