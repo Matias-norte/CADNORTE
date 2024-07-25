@@ -905,6 +905,12 @@ p{
     padding: 5px;
     }
     
+.whatsapp {
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+    }
+    
 .whatsapp a img {
        width: 80px; /* Ajusta el ancho de la imagen según sea necesario */
        height: auto; /* Para mantener la proporción de la imagen */
