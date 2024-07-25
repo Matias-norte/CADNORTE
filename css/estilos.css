@@ -905,21 +905,24 @@ p{
     padding: 5px;
     }
     
-.whatsapp {
+.btn-wa {
        position: fixed;
-       bottom: 20px;
-       right: 20px;
-    }
-    
-.whatsapp a img {
-       width: 80px; /* Ajusta el ancho de la imagen según sea necesario */
-       height: auto; /* Para mantener la proporción de la imagen */
-       border-radius: 50%; /* Hace que la imagen sea redonda */
-       box-shadow: 0 1px 4px rgba(0,0,0,.4); /* Sombra suave */
-       transition: transform 0.3s ease; /* Transición suave al hacer hover */
-    }
-    
-.whatsapp a img:hover {
-       transform: scale(1.1); /* Escala la imagen al hacer hover */
+       width: 55px;
+       height: 55px;
+       line-height: 55px;
+       bottom: 30px;
+       right: 30px;
+       background: #0df053;
+       color: #fff;
+       border-radius: 50px;
+       text-align: center;
+       font-size: 30 px;
+       box-shadow: 0 px 1px 10px rgba(0,0,0,0.3);
+       z-index: 100;
     }
 
+.btn-wa  hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+    }
