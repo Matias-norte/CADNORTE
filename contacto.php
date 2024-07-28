@@ -1,19 +1,19 @@
 <?php
-if (empty($_GET["nombre"])) {
+if (empty($_POST["nombre"])) {
     exit("Falta el nombre");
 }
 
-if (empty($_GET["correo"])) {
+if (empty($_POST["correo"])) {
     exit("Falta el correo");
 }
 
-if (empty($_GET["mensaje"])) {
+if (empty($_POST["mensaje"])) {
     exit("Falta el mensaje");
 }
 
-$nombre = $_GET["nombre"];
-$correo = $_GET["correo"];
-$mensaje = $_GET["mensaje"];
+$nombre = $_POST["nombre"];
+$correo = $_POST["correo"];
+$mensaje = $_POST["mensaje"];
 
 $correo = filter_var($correo, FILTER_VALIDATE_EMAIL);
 if (!$correo) {
